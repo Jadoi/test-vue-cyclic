@@ -1,0 +1,12 @@
+git clean
+git init -b main
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/Jadoi/test-vue-cyclic.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Jadoi/test-vue-cyclic.git
+git branch -M main
+git push -u origin main
